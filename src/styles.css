@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Dosis:wght@200&family=Great+Vibes&family=Parisienne&family=Pinyon+Script&family=Shadows+Into+Light+Two&display=swap');
+body{
+    font-family: 'Dosis', sans-serif;
+}
+.card-img-top{
+    width: 100px;
+    height: 100px;
+    transition: ease-out 0.5s;
+
+}
+
+.card-img-top:hover{
+    transform: scale(1.25);
+    transition: ease-out 0.5s;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;
+}

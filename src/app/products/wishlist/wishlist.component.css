@@ -1,0 +1,9 @@
+.wishlist{
+    margin-top: 10%;
+}
+
+@media(max-width:768px){
+    .wishlist{
+        margin-top: 50%;
+    }
+}

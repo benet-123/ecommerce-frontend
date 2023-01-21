@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Dosis:wght@200&family=Explora&family=Great+Vibes&family=Handlee&family=Moon+Dance&family=Parisienne&family=Pinyon+Script&family=Playfair+Display&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap');
+ #wishlist{
+    color: white;
+    margin-left: 500%;
+    text-decoration: none;
+ }
+ h3{
+    font-family: 'Explora', cursive;
+    font-weight: bold;
+    font-size: 45px;
+ }
+@media(max-width:700px){
+    #wishlist{
+        margin-left: 0;
+    }
+}
